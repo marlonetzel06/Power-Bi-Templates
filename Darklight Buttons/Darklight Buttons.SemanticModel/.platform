@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Darklight Buttons"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "e4bce317-bc70-4ab4-bc51-ca44cdac4ecd"
+  }
+}
