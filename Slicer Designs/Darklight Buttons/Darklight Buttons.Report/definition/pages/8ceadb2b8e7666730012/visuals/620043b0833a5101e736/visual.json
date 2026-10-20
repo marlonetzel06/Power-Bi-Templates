@@ -1,0 +1,579 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "620043b0833a5101e736",
+  "position": {
+    "x": 639.41137758953982,
+    "y": 611.74824610351232,
+    "z": 8000,
+    "height": 72,
+    "width": 300,
+    "tabOrder": 8000
+  },
+  "visual": {
+    "visualType": "slicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "financials"
+                    }
+                  },
+                  "Property": "Date"
+                }
+              },
+              "queryRef": "financials.Date",
+              "nativeQueryRef": "Date",
+              "active": true
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "financials"
+                  }
+                },
+                "Property": "Date"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "data": [
+        {
+          "properties": {
+            "mode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'RelativeDatePicker'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "header": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "dateRangeText": [
+        {
+          "properties": {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#00F2E5'"
+                    }
+                  }
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11D"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "relativeText": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "slider": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "calendarButton": [
+        {
+          "properties": {
+            "backgroundShow": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "backgroundColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#00F2E5'"
+                    }
+                  }
+                }
+              }
+            },
+            "backgroundTransparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "88D"
+                }
+              }
+            },
+            "strokeShow": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "iconColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#00F2E5'"
+                    }
+                  }
+                }
+              }
+            },
+            "iconTransparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            },
+            "cornerRadius": {
+              "expr": {
+                "Literal": {
+                  "Value": "6D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        },
+        {
+          "properties": {
+            "backgroundShow": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "backgroundColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#00F2E5'"
+                    }
+                  }
+                }
+              }
+            },
+            "backgroundTransparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "78D"
+                }
+              }
+            },
+            "strokeShow": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "iconColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#00F2E5'"
+                    }
+                  }
+                }
+              }
+            },
+            "iconTransparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            },
+            "cornerRadius": {
+              "expr": {
+                "Literal": {
+                  "Value": "6D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "hover"
+          }
+        },
+        {
+          "properties": {
+            "backgroundShow": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "backgroundColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#00F2E5'"
+                    }
+                  }
+                }
+              }
+            },
+            "backgroundTransparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "78D"
+                }
+              }
+            },
+            "strokeShow": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "iconColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#00F2E5'"
+                    }
+                  }
+                }
+              }
+            },
+            "iconTransparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            },
+            "cornerRadius": {
+              "expr": {
+                "Literal": {
+                  "Value": "6D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "press"
+          }
+        }
+      ],
+      "general": [
+        {
+          "properties": {
+            "filter": {
+              "filter": {
+                "Version": 2,
+                "From": [
+                  {
+                    "Name": "f",
+                    "Entity": "financials",
+                    "Type": 0
+                  }
+                ],
+                "Where": [
+                  {
+                    "Condition": {
+                      "And": {
+                        "Left": {
+                          "Comparison": {
+                            "ComparisonKind": 2,
+                            "Left": {
+                              "Column": {
+                                "Expression": {
+                                  "SourceRef": {
+                                    "Source": "f"
+                                  }
+                                },
+                                "Property": "Date"
+                              }
+                            },
+                            "Right": {
+                              "Literal": {
+                                "Value": "datetime'2013-09-01T00:00:00'"
+                              }
+                            }
+                          }
+                        },
+                        "Right": {
+                          "Comparison": {
+                            "ComparisonKind": 3,
+                            "Left": {
+                              "Column": {
+                                "Expression": {
+                                  "SourceRef": {
+                                    "Source": "f"
+                                  }
+                                },
+                                "Property": "Date"
+                              }
+                            },
+                            "Right": {
+                              "Literal": {
+                                "Value": "datetime'2014-12-02T00:00:00'"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Date'"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#9FABB3'"
+                    }
+                  }
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "dropShadow": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "spacing": [
+        {
+          "properties": {
+            "spaceAbovePlotArea": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "padding": [
+        {
+          "properties": {
+            "top": {
+              "expr": {
+                "Literal": {
+                  "Value": "4D"
+                }
+              }
+            },
+            "bottom": {
+              "expr": {
+                "Literal": {
+                  "Value": "4D"
+                }
+              }
+            },
+            "left": {
+              "expr": {
+                "Literal": {
+                  "Value": "4D"
+                }
+              }
+            },
+            "right": {
+              "expr": {
+                "Literal": {
+                  "Value": "4D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "visualHeader": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "bb5c13a84143f1bfa686",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "financials"
+              }
+            },
+            "Property": "Date"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  }
+}
