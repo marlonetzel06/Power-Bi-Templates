@@ -2,8 +2,8 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "ca3237b97c5d7a35e401",
   "position": {
-    "x": 1037.7952159733779,
-    "y": 389.08547008547026,
+    "x": 1077.7952159733779,
+    "y": 404.5454545454545,
     "z": 3000,
     "height": 72.222222222222214,
     "width": 300,
@@ -56,61 +56,6 @@
                 "Literal": {
                   "Value": "false"
                 }
-              }
-            },
-            "filter": {
-              "filter": {
-                "Version": 2,
-                "From": [
-                  {
-                    "Name": "f",
-                    "Entity": "financials",
-                    "Type": 0
-                  }
-                ],
-                "Where": [
-                  {
-                    "Condition": {
-                      "In": {
-                        "Expressions": [
-                          {
-                            "Column": {
-                              "Expression": {
-                                "SourceRef": {
-                                  "Source": "f"
-                                }
-                              },
-                              "Property": "Segment"
-                            }
-                          }
-                        ],
-                        "Values": [
-                          [
-                            {
-                              "Literal": {
-                                "Value": "'Government'"
-                              }
-                            }
-                          ],
-                          [
-                            {
-                              "Literal": {
-                                "Value": "'Midmarket'"
-                              }
-                            }
-                          ],
-                          [
-                            {
-                              "Literal": {
-                                "Value": "'Small Business'"
-                              }
-                            }
-                          ]
-                        ]
-                      }
-                    }
-                  }
-                ]
               }
             }
           }
@@ -904,23 +849,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "35e79fbad2a1a4ec78ba",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "financials"
-              }
-            },
-            "Property": "Segment"
-          }
-        },
-        "type": "Categorical"
-      }
-    ]
   }
 }

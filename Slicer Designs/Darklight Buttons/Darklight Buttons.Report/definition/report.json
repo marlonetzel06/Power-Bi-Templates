@@ -40,7 +40,7 @@
           "expanded": {
             "expr": {
               "Literal": {
-                "Value": "true"
+                "Value": "false"
               }
             }
           },
@@ -85,6 +85,26 @@
           "name": "MMFluent2-CY26SU08.json",
           "path": "MMFluent2-CY26SU08.json",
           "type": "CustomTheme"
+        },
+        {
+          "name": "btn-arrow-left-00f2e5.svg",
+          "path": "btn-arrow-left-00f2e5.svg",
+          "type": "Image"
+        },
+        {
+          "name": "btn-arrow-left-008e82.svg",
+          "path": "btn-arrow-left-008e82.svg",
+          "type": "Image"
+        },
+        {
+          "name": "btn-rotate-041c2c.svg",
+          "path": "btn-rotate-041c2c.svg",
+          "type": "Image"
+        },
+        {
+          "name": "btn-rotate-ffffff.svg",
+          "path": "btn-rotate-ffffff.svg",
+          "type": "Image"
         }
       ]
     }
