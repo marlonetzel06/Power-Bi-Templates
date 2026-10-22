@@ -2,8 +2,8 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "e6c8297c8432f815f380",
   "position": {
-    "x": 1037.7952159733779,
-    "y": 545.60139483823889,
+    "x": 1077.7952159733779,
+    "y": 568.60606060606051,
     "z": 6000,
     "height": 46,
     "width": 330,
@@ -749,7 +749,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'Midmarket'"
+                                "Value": "'Enterprise'"
                               }
                             }
                           ]
